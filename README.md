@@ -1,12 +1,11 @@
 # 🔐 SecureChatLog
 
-📦 Developed by MARVtechnology.
 ---
 
 **SecureChatLog** is a Folia-compatible Minecraft plugin that securely logs player chat messages with tamper-proof hash chaining, supports multilingual message filtering, and provides robust mute management.
 
 **SecureChatLog** は、チャットログの改ざん検知・多言語対応・ミュート機能・NGワードフィルターを備えた、Folia対応のMinecraftプラグインです。
-
+📦 Developed by MARVtechnology.
 ---
 
 ## ✨ Features / 特徴
