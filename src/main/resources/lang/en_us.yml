@@ -1,0 +1,35 @@
+prefix: "&7[&dSecure&fLog&7] "
+
+mute:
+  success: "&aMuted {player} for {duration}."
+  already-muted: "&e{player} is already muted."
+
+unmute:
+  success: "&aUnmuted {player}."
+  not-muted: "&e{player} is not currently muted."
+
+check:
+  not-muted: "&a{player} is not muted."
+
+filter:
+  detected: "[Filtered] {player} used forbidden word: '{word}' → {message}"
+
+reload:
+  success: "&aFilter words reloaded."
+
+lang:
+  success: "&aLanguage changed to {lang}."
+  failed: "&cLanguage file not found."
+
+verify:
+  valid: "&aLog chain is valid."
+  invalid: "&cHash mismatch: §f{expected} ≠ {actual}"
+  error: "&cError occurred during log verification."
+
+status:
+  header: "&6== SecureChatLog Status =="
+  file: "&7- Log file: &f{file}"
+  hash: "&7- Last hash: &f{hash}"
+  lines: "&7- Line count: &f{lines}"
+  muted: "&7- Currently muted: &f{count} players"
+  muted-entry: "&8- {player}: {remaining} left (until {until}) Reason: {reason}"

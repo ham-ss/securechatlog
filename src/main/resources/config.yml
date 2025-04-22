@@ -1,0 +1,3 @@
+log:
+  auto-verify-on-startup: true  # 起動時にログのハッシュ整合性を検証するか
+  timezone: "Asia/Tokyo"        # ログ出力時のタイムゾーン

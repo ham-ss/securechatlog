@@ -1,0 +1,31 @@
+name: SecureChatLog
+version: 1.0
+main: marvtechnology.securechatlog.SecureChatLoggerPlugin
+api-version: "1.20"
+folia-supported: true
+author: marvtechnology
+description: >
+  A Folia-compatible, tamper-proof multilingual chat logger
+  with NG word filtering, mute management, and log chain verification.
+
+commands:
+  msl:
+    description: Root command for SecureChatLog plugin
+    usage: /msl <help|reload|mute|unmute|check|verify|status|lang|testlog>
+    aliases: [securechatlog]
+    permission: securechatlog.base
+
+permissions:
+  securechatlog.*:
+    description: Gives access to all SecureChatLog commands
+    default: op
+    children:
+      securechatlog.base: true
+      securechatlog.mute: true
+      securechatlog.unmute: true
+      securechatlog.check: true
+      securechatlog.verify: true
+      securechatlog.reload: true
+      securechatlog.status: true
+      securechatlog.lang: true
+      securechatlog.testlog: true

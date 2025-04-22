@@ -1,0 +1,35 @@
+prefix: "&7[&dSecure&fLog&7] "
+
+mute:
+  success: "&a{player} を {duration} 間ミュートしました。"
+  already-muted: "&e{player} はすでにミュートされています。"
+
+unmute:
+  success: "&a{player} のミュートを解除しました。"
+  not-muted: "&e{player} は現在ミュートされていません。"
+
+check:
+  not-muted: "&a{player} はミュートされていません。"
+
+filter:
+  detected: "[検出] {player} が禁止ワードを使用: '{word}' → {message}"
+
+reload:
+  success: "&aフィルター単語をリロードしました。"
+
+lang:
+  success: "&a言語を {lang} に変更しました。"
+  failed: "&c指定された言語ファイルが見つかりません。"
+
+verify:
+  valid: "&aログチェーンは正常です。"
+  invalid: "&cハッシュ不一致: §f{expected} ≠ {actual}"
+  error: "&cログ検証中にエラーが発生しました。"
+
+status:
+  header: "&6== SecureChatLog ステータス =="
+  file: "&7- ログファイル: &f{file}"
+  hash: "&7- 最終ハッシュ: &f{hash}"
+  lines: "&7- 行数: &f{lines}"
+  muted: "&7- 現在ミュート中: &f{count}人"
+  muted-entry: "&8- {player}: あと {remaining}（～ {until}）理由: {reason}"

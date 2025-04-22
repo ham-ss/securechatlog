@@ -1,0 +1,8 @@
+filtered-words:
+  - "ばか"
+  - "fuck"
+  - "死ね"
+
+options:
+  alert-to-ops: true
+  log-to-console: true
